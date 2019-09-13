@@ -10,13 +10,16 @@ As for classification task, the annotation strageties are really depends on what
 <img src="https://github.com/visenze/sense/blob/feature/notes/notes/images/data/detect_box.png" width=800>
 
 ### Cleaning task for confused images based on entropy
-
+*
 
 ### Cleaning task for adding data based on keywords search
+*
 
 ### Group cleaing task for badcase driven data coverage expansion based on visual search 
-(be careful of overfitting)
-
+(Be careful of overfitting issue)
+&#8594 Error analysis for the prediction result on product devset (How to do error analysis)
+* Filter out thoses bad cases with data coverage issue
+* 
 
 ---
 ## Multi-Label Classification
