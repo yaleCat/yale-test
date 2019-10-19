@@ -1,7 +1,5 @@
 
-# Annotation strategy
-
-## Multi-Class Classification
+# Multi-Class Annotation strategy
 
 As for classification task, the annotation strageties are really depends on what kind of issue you want solve. We list down some most common ways for building annotation task:
 
