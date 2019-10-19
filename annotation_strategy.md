@@ -28,9 +28,10 @@ As for classification task, the annotation strageties are really depends on what
 * Error analysis for the prediction result on product development dataset (How to do error analysis)
 * Filter out thoses bad cases with data coverage issue
 -- badcase_search_error_analysis.jpg
-* Get search result from the existing search model online with relevant feature sets and enough reference size
+* Get search result from the existing relevant online feature sets and large reference dataset
 -- badcase_search_dashboard_result.jpg
-* Create group cleaning task, in which each query url is the bad case url and the cleaning class is the groundtruth for the bad case image
+* Use visearch scripts to generate search result 
+* Create group cleaning task with the search result, in which each query url is the bad case url and the cleaning class is the groundtruth for the bad case image
 -- badcase_search_annotation.jpg
 * Create guideline to notice vendor that do not select the exact match and duplicate images during the annotation task to prevent overfiting to the product development dataset
 -- badcase_search_guidline.jpg
